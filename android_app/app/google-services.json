@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "803174599565",
+    "project_number": " ",
     "project_id": "accident-dec",
-    "storage_bucket": "accident-dec.firebasestorage.app"
+    "storage_bucket": " "
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:803174599565:android:f3964d5841bd4192e2cbc4",
+        "mobilesdk_app_id": " ",
         "android_client_info": {
           "package_name": "com.accdec"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyC2PLC2G3HTcH6iBUckLE734DfgiJrv-R0"
+          "current_key": " "
         }
       ],
       "services": {
