@@ -1,0 +1,17 @@
+[Unit]
+Description=Accident Detection System
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=pi
+WorkingDirectory=/home/pi/Demo
+ExecStart=/usr/bin/python3 /home/pi/Demo/pi_system/main.py
+Restart=always
+RestartSec=10
+StandardOutput=append:/var/log/accident_detect.log
+StandardError=append:/var/log/accident_detect.log
+
+[Install]
+WantedBy=multi-user.target
