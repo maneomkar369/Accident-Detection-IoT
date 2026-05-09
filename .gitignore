@@ -10,3 +10,13 @@ ultimate_train.py
 high_accuracy_train.py
 final_train.py
 generate_data.py
+
+# Android
+android_app/app/build/
+android_app/build/
+android_app/.gradle/
+android_app/local.properties
+android_app/build_log.txt
+*.iml
+.idea/
+.DS_Store
